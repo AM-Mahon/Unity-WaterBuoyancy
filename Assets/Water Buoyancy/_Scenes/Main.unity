@@ -209,7 +209,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 54807882}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.24, y: 2.47, z: -3.64}
+  m_LocalPosition: {x: 0.02, y: 2.47, z: -5.68}
   m_LocalScale: {x: 0.19786, y: 0.19786, z: 0.19786}
   m_Children: []
   m_Father: {fileID: 0}
@@ -692,6 +692,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_obstructionLayer
       value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114619746081397232, guid: 0242aa8515b4bc947a945a5c6df83ee9,
+        type: 3}
+      propertyPath: m_maxGrabDistance
+      value: 3.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0242aa8515b4bc947a945a5c6df83ee9, type: 3}
@@ -3065,7 +3070,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OutlineColorInRange: {r: 0, g: 0, b: 0, a: 0}
-  OutlineColorHighlighted: {r: 0, g: 0, b: 0, a: 0}
+  OutlineColorHighlighted: {r: 0.9339623, g: 0, b: 0, a: 0}
 --- !u!1001 &1821777696
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3135,6 +3140,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_obstructionLayer
       value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114956354361317420, guid: 6fae51a9f4170334e8639e8dbfc0a54b,
+        type: 3}
+      propertyPath: m_maxGrabDistance
+      value: 3.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fae51a9f4170334e8639e8dbfc0a54b, type: 3}
