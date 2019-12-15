@@ -1,31 +1,12 @@
-# Unity-WaterBuoyancy
-Water Buoyancy Simulation for Unity Engine
+# Trevor and Ann Marie Intro to VR Final
 
-![gif](https://github.com/dbrizov/dbrizov.github.io/blob/master/images/project-images/water-buoyancy/idle.gif)
-![gif](https://github.com/dbrizov/dbrizov.github.io/blob/master/images/project-images/water-buoyancy/dive-in.gif)
-![screenshot](https://github.com/dbrizov/dbrizov.github.io/blob/master/images/project-images/water-buoyancy/surface-normal.png)
+## Project description
 
-## System Requirements
+This project is a physics sandbox in VR on the Oculus Rift, centered around buoyancy.  Users can walk around on various floating objects, and can grab the oar and planks scattered around the scene.  There is no particular objective, the intent was instead to give the user the freedom to do what they wanted within the bounds of the simulation.
 
-Unity 2018.3.0 or later versions. Feel free to try older version
+## Attribution
 
-## How To Setup
-
-You can use the ready to go prefabs (**WaterPro_DayTime** and **WaterPro_NightTime**). <br>
-They are both located in the Prefabs folder. The only difference between the two
-is that they use different shaders for daylight and moonlight. <br>
-
-The two important scripts are **WaterVolume.cs** and **FloatingObject.cs**. <br>
-The water volume applies buoyancy forces only to floating objects.
-The water volume needs to have a tag **Water Volume** in order for the floating objects to detect collisions with the water.
-The floating is just like in real life physics. If an object has density lesser than
-the density of the water, it will float. If an object has greater density than that of the water, it will sink.
-If for example an object has density equal to half the density of the water, then the object will submerge exactly half of its volume.
-The other half of the volume will be above the water. For more info see this [Buoyancy Reference](http://scienceprimer.com/buoyancy) <br>
-
-The **WaterVolume.cs** script works only with the procedural Mesh in the project due to performance optimizations.
-
-## License
+The [water simulation](https://github.com/dbrizov/Unity-WaterBuoyancy) code and shaders were created by Denis Rizov.  This repository is a fork of that one.  License statement found below.  Assets for planks and barrels are from the Unity asset store.  [Oculus integration](https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022) is from the Unity asset store.
 
 The MIT License (MIT)
 
