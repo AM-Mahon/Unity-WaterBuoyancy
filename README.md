@@ -6,7 +6,7 @@ This project is a physics sandbox in VR on the Oculus Rift, centered around buoy
 
 ## References:
 
-### old rowboat
+### old rowboat oar
 https://assetstore.unity.com/packages/3d/vehicles/sea/old-rowboat-31917
 
 ### gold bar
