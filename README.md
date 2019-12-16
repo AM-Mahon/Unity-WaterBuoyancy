@@ -4,6 +4,21 @@
 
 This project is a physics sandbox in VR on the Oculus Rift, centered around buoyancy.  Users can walk around on various floating objects, and can grab the oar and planks scattered around the scene.  There is no particular objective, the intent was instead to give the user the freedom to do what they wanted within the bounds of the simulation.
 
+## References:
+
+### old rowboat
+https://assetstore.unity.com/packages/3d/vehicles/sea/old-rowboat-31917
+
+### gold bar
+https://assetstore.unity.com/packages/3d/props/medieval-gold-14162
+
+### metal barrels
+https://assetstore.unity.com/packages/3d/props/metal-barrel-3d-model-29348
+
+### Wood Textures
+https://assetstore.unity.com/packages/2d/textures-materials/wood/15-original-wood-texture-71286
+
+
 ## Attribution
 
 The [water simulation](https://github.com/dbrizov/Unity-WaterBuoyancy) code and shaders were created by Denis Rizov.  This repository is a fork of that one.  License statement found below.  Assets for planks and barrels are from the Unity asset store.  [Oculus integration](https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022) is from the Unity asset store.
